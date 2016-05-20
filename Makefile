@@ -13,7 +13,7 @@ multi_cities = newyork losangeles chicago phoenix sandiego dallas sfbay \
 cities += multi_cities
 
 root = $(patsubst %,%.craigslist.org,$(cities))
-uri = $(addsuffix /apa /foo,$(root)) $(addsuffix /roo,$(root)) $(addsuffix /sub,$(root))
+uri = $(addsuffix /apa,$(root)) $(addsuffix /roo,$(root)) $(addsuffix /sub,$(root))
 
 all : $(uri)
 
