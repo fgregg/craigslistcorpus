@@ -1,0 +1,1 @@
+-e git://github.com/fgregg/waybackpack.git#egg=waybackpack
